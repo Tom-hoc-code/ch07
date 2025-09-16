@@ -4,12 +4,56 @@
 <head>
     <title>Your Cart</title>
     <style>
-        table { border-collapse: collapse; width: 70%; margin: 20px auto; }
-        th, td { border: 1px solid #000; padding: 8px; text-align: center; }
-        th { background-color: #f2f2f2; }
-        h2 { color: darkcyan; text-align: center; }
-        button { padding: 5px 10px; }
-        .actions { width:70%; margin: 20px auto; text-align: right; }
+        table {
+            border-collapse: collapse;
+            width: 70%;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px 12px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #e0f7fa;
+            color: #006064;
+            font-weight: bold;
+        }
+
+        h2 {
+            text-align: center;
+            color: #006064;
+            font-family: Arial, sans-serif;
+        }
+
+        button {
+            padding: 5px 10px;
+            background-color: #0097a7;
+            border: none;
+            color: white;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+
+        button:hover {
+            background-color: #007c91;
+        }
+
+        .actions {
+            width: 70%;
+            margin: 20px auto;
+            text-align: right;
+            font-family: Arial, sans-serif;
+        }
+
+        .actions p {
+            font-weight: bold;
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
     </style>
 </head>
 <body>
